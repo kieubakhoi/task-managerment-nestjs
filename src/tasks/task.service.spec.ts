@@ -2,7 +2,6 @@ import { NotFoundException } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
 import { User } from 'src/auth/user.entity';
 import { TaskStatus } from './task-status.enum';
-import { Task } from './task.entity';
 import { TasksRepository } from './tasks.repository';
 import { TasksService } from './tasks.service';
 
